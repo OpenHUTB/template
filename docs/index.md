@@ -1,12 +1,12 @@
 title: 主页
 
-# [Github Page 模板](https://github.com/OpenHUTB/template)
+# [OpenHUTB Page 模板](https://github.com/OpenHUTB/template)
 
 欢迎使用 OpenHUTB 的 Github Page 模板文档。
 
 
 
-- [目录](#list)
+- [简介](#list)
     - [入门](#introduction)
     
     
@@ -14,10 +14,9 @@ title: 主页
 ---
 
 
-## 1. OpenSim <span id="list"></span>
+## 1. 简介 <span id="list"></span>
 
 [__入门__](introduction.md) <span id="introduction"></span>
-入门
 
 
 ___
