@@ -42,6 +42,10 @@ plugins:
   - bibtex:
       bib_file: refs.bib
       csl_file: nature.csl
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: True
+      video_loop: True
 
 extra:
   generator: false
@@ -54,6 +58,7 @@ copyright: OpenHUTB 版权所有 &copy; {year}
 
 nav:
 - 首页: 'index.md'
+- 涉水效果: 'introduction.md'
 
 # - mdx_math 用于行内公式显示
 markdown_extensions:
