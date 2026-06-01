@@ -1,2 +1,5 @@
 python-markdown-math
+pymdown-extensions
 imageio
+hutb-doc
+
