@@ -39,17 +39,25 @@ plugins:
       lang: ja
       separator: '[\s\-\.]+'
       min_search_length: 3
+  - bibtex:
+      bib_file: refs.bib
+      csl_file: nature.csl
 
 extra:
   generator: false
 
-copyright: OpenHUTB 版权所有 &copy; 2026
+hooks:
+  - hooks.py
+
+copyright: OpenHUTB 版权所有 &copy; {year}
+
 
 nav:
 - 首页: 'index.md'
 
 # - mdx_math 用于行内公式显示
 markdown_extensions:
+  - footnotes
   - admonition
   - mdx_math
   - pymdownx.superfences:
@@ -58,3 +66,4 @@ markdown_extensions:
         ,{ name: sequence, class: uml-sequence-diagram }
         ,{ name: mermaid, class: mermaid }
       ]
+

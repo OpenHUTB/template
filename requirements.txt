@@ -1,5 +1,8 @@
 python-markdown-math
 pymdown-extensions
 imageio
+mkdocs-bibtex
+# fix OSError: No pandoc was found: 
+pypandoc-binary
 hutb-doc
 
