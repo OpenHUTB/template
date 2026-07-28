@@ -16,7 +16,50 @@ title: 主页
 
 ## 1. 简介 <span id="list"></span>
 
-[__涉水效果__](introduction.md) <span id="introduction"></span>
+[__播放视频__](introduction.md) <span id="introduction"></span>
+
+## 2. 表格
+
+### 2.1 跨越多行和多列
+
+```text
++-------+----------+------+
+| Table Headings   | Here |
++-------+----------+------+
+| Sub   | Headings | Too  |
++=======+==========+======+
+| cell  | column spanning |
++ spans +----------+------+
+| rows  | normal   | cell |
++-------+----------+------+
+| multi | cells can be    |
+| line  | *formatted*     |
+|       | **paragraphs**  |
+| cells |                 |
+| too   |                 |
++-------+-----------------+
+```
+
+渲染为：
+
++-------+----------+------+
+| Table Headings   | Here |
++-------+----------+------+
+| Sub   | Headings | Too  |
++=======+==========+======+
+| cell  | column spanning |
++ spans +----------+------+
+| rows  | normal   | cell |
++-------+----------+------+
+| multi | cells can be    |
+| line  | *formatted*     |
+|       | **paragraphs**  |
+| cells |                 |
+| too   |                 |
++-------+-----------------+
+
+
+
 
 
 ___

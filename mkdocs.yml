@@ -58,10 +58,11 @@ copyright: OpenHUTB 版权所有 &copy; {year}
 
 nav:
 - 首页: 'index.md'
-- 涉水效果: 'introduction.md'
+- 播放视频: 'introduction.md'
 
 # - mdx_math 用于行内公式显示
 markdown_extensions:
+  - markdown_grid_tables
   - footnotes
   - admonition
   - mdx_math
