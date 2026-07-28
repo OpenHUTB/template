@@ -45,13 +45,19 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#1">1. 简介 </a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2">2. 表格</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#21">2.1 跨越多行和多列</a>
+    </li>
+        </ul>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#_1">参考文献</a>
     </li>
     </ul>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="introduction/">涉水效果</a>
+                <li class="toctree-l1"><a class="reference internal" href="introduction/">播放视频</a>
                 </li>
               </ul>
       </div>
@@ -88,7 +94,85 @@
 </ul>
 <hr>
 <h2 id="1">1. 简介 <span id="list"></span></h2>
-<p><a href="introduction/"><strong>涉水效果</strong></a> <span id="introduction"></span></p>
+<p><a href="introduction/"><strong>播放视频</strong></a> <span id="introduction"></span></p>
+<h2 id="2">2. 表格</h2>
+<h3 id="21">2.1 跨越多行和多列</h3>
+<div class="highlight"><pre><span></span><code>+-------+----------+------+
+| Table Headings   | Here |
++-------+----------+------+
+| Sub   | Headings | Too  |
++=======+==========+======+
+| cell  | column spanning |
++ spans +----------+------+
+| rows  | normal   | cell |
++-------+----------+------+
+| multi | cells can be    |
+| line  | *formatted*     |
+|       | **paragraphs**  |
+| cells |                 |
+| too   |                 |
++-------+-----------------+
+</code></pre></div>
+<p>渲染为：</p>
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="1">
+<p>Table Headings</p>
+</th>
+<th colspan="1" rowspan="1">
+<p>Here</p>
+</th>
+</tr>
+<tr>
+<th colspan="1" rowspan="1">
+<p>Sub</p>
+</th>
+<th colspan="1" rowspan="1">
+<p>Headings</p>
+</th>
+<th colspan="1" rowspan="1">
+<p>Too</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="1" rowspan="2">
+<p>cell<br>
+spans<br>
+rows</p>
+</td>
+<td colspan="2" rowspan="1">
+<p>column spanning</p>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<p>normal</p>
+</td>
+<td colspan="1" rowspan="1">
+<p>cell</p>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<p>multi<br>
+line<br>
+<br>
+cells<br>
+too</p>
+</td>
+<td colspan="2" rowspan="1">
+<p>cells can be<br>
+<em>formatted</em><br>
+<strong>paragraphs</strong><br>
+<br>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 <hr>
 <p>如果对文档中的任何问题可以在 <a href="https://github.com/OpenHUTB/templte">本文档的源码仓库</a> 中的 <a href="https://github.com/OpenHUTB/templte/issues">问题</a> 页面讨论或者提交 <a href="https://github.com/OpenHUTB/.github/blob/master/CONTRIBUTING.md">拉取请求</a> 直接修改文档。</p>
 <h2 id="_1">参考文献</h2>
@@ -104,7 +188,7 @@
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="introduction/" class="btn btn-neutral float-right" title="涉水效果">后一页 <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="introduction/" class="btn btn-neutral float-right" title="播放视频">后一页 <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -159,5 +243,5 @@
 
 <!--
 MkDocs version : 1.5.8
-Build Date UTC : 2026-07-21 00:47:42.599717+00:00
+Build Date UTC : 2026-07-28 08:00:48.689570+00:00
 -->
