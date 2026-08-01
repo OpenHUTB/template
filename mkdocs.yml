@@ -58,7 +58,7 @@ copyright: OpenHUTB 版权所有 &copy; {year}
 
 nav:
 - 首页: 'index.md'
-- 播放视频: 'introduction.md'
+- mkdocs简介: 'mkdocs.md'
 
 # - mdx_math 用于行内公式显示
 markdown_extensions:
