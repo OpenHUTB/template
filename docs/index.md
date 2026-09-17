@@ -25,6 +25,15 @@ title: 主页
 
 ### 1.1 [__mkdocs简介__](./mkdocs.md) <span id="mkdocs"></span>
 
+* mermaid 图表渲染支持
+
+```mermaid
+graph LR
+    K[键盘输入] -->|pynput 监听| T[drone_ros_teleop 键盘发布节点]
+    T -->|/drone/cmd_vel Twist 10 Hz| B[drone_ros_node 桥接控制节点]
+    B -->|AirSim RPC 41451| A[Windows 宿主机 AirSim 模拟器]
+```
+
 ### 1.2 [__播放视频__](videos.md) <span id="videos"></span>
 
 
