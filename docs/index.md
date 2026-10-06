@@ -36,7 +36,16 @@ graph LR
     B -->|AirSim RPC 41451| A[Windows 宿主机 AirSim 模拟器]
 ```
 
-### 1.2 [__播放视频__](videos.md) <span id="videos"></span>
+* [播放视频](videos.md) <span id="videos"></span>
+
+* 显示图片 
+
+```
+![](./img/action_page.jpg)
+```
+
+![](./img/action_page.jpg)
+
 
 
 ## 2. 表格 <span id='table'></span>
