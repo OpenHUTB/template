@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html class="writer-html5" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../img/favicon.ico" rel="shortcut icon"/>
+<title>使用 VS Code 文档撰写时的实时预览 - OpenHUTB 文档模板</title>
+<link href="../css/theme.css" rel="stylesheet"/>
+<link href="../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
+<link href="../extra.css" rel="stylesheet"/>
+<script>
+        // Current page data
+        var mkdocs_page_name = "\u4f7f\u7528 VS Code \u6587\u6863\u64b0\u5199\u65f6\u7684\u5b9e\u65f6\u9884\u89c8";
+        var mkdocs_page_input_path = "preview.md";
+        var mkdocs_page_url = null;
+      </script>
+<!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a class="icon icon-home" href=".."> OpenHUTB 文档模板
+        </a><div role="search">
+<form action="../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input aria-label="Search docs" name="q" placeholder="搜索文档" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="..">首页</a>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../mkdocs/">mkdocs简介</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="..">OpenHUTB 文档模板</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a aria-label="Docs" class="icon icon-home" href=".."></a></li>
+<li class="breadcrumb-item active">使用 VS Code 文档撰写时的实时预览</li>
+<li class="wy-breadcrumbs-aside">
+<a href="https://github.com/OpenHUTB/template/edit/master/docs/preview.md"> 编辑页面</a>
+</li>
+</ul>
+<hr/>
+</div>
+<div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
+<div class="section" itemprop="articleBody">
+<div><h1 id="使用-vs-code-文档撰写时的实时预览">使用 VS Code 文档撰写时的实时预览</h1>
+<p>由于 OpenHUTB 社区的文档和默认的 Markdown 和 mkdocs 预览的文档有所区别，下面介绍社区文档撰写时的实时预览方法，以加快文档撰写的速度和质量（该方法同样适应于 mkdocs 文档的撰写）。</p>
+<p><strong>1.</strong>在 VS Code 的右侧的 Extensions (Ctrl + Shift +X) 中搜索 <code>mkdocs-vscode</code> 插件并安装；</p>
+<p><img alt="" src="../img/mkdocs_preview.png"/></p>
+<p><strong>2.</strong>安装 Python 3.8+ 和相关的依赖
+</p><div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>hutb-doc
+</code></pre></div>
+<p><strong>3.</strong>由于系统中默认的 mkdocs 命令可能不是 mkdocs 命令所在的 Python 虚拟环境，点击上图中的齿轮图片并选中下拉菜单中的 <code>Settings</code>，进行 mkdocs 命令绝对路径的设置</p>
+<p><img alt="" src="../img/mkdocs_path.png"/></p>
+<p><strong>4.</strong>打开包含 <code>mkdocs.yml</code> 文件的工作空间。</p>
+<p><strong>5.</strong>左下角的状态栏中找到并点击 Mkdocs 按钮。</p>
+<p><img alt="" src="../img/mkdocs_bar.png"/></p>
+<p><strong>6.</strong>等待服务启动，刷新弹出的预览框，即可看到文档的最终效果。每次修改后，都可以在预览框中看到修改后的效果。点击<code>Stop MkDocs</code>即可停止服务器。</p>
+<p><img alt="" src="../img/mkdocs_preview_2.png"/></p></div>
+</div>
+</div><footer>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+<p>OpenHUTB 版权所有 © 2026</p>
+</div>
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="Versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span>
+<a href="https://github.com/OpenHUTB/template" style="color: #fcfcfc">OpenHUTB</a>
+</span>
+</span>
+</div>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script>var base_url = "..";</script>
+<script src="../js/theme_extra.js"></script>
+<script src="../js/theme.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script>
+<script src="../js/umlconvert.js"></script>
+<script src="../search/main.js"></script>
+<script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+</body>
+</html>
