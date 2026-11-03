@@ -14,6 +14,8 @@ title: 主页
     - [mkdocs简介](#mkdocs)
     - [播放视频](#videos)
 - [表格](#table)
+    - [普通表格](#普通表格)
+    - [跨越多行和多列](#跨越多行和多列)
     
     
 
@@ -34,15 +36,26 @@ graph LR
     B -->|AirSim RPC 41451| A[Windows 宿主机 AirSim 模拟器]
 ```
 
-* [__播放视频__](videos.md) <span id="videos"></span>
+* [播放视频](videos.md) <span id="videos"></span>
 
+* 显示图片 
+```
+![](./img/action_page.jpg)
+```
+
+![](./img/action_page.jpg)
 
 * [VS Code 实时预览](./preview.md)
 
-
 ## 2. 表格 <span id='table'></span>
 
-### 2.1 跨越多行和多列
+### 普通表格
+
+| 命令  | 描述 |
+|-------|--------|
+| `make help`     | 打印所有可用的命令。  |
+
+### 跨越多行和多列
 
 ```text
 +---------+----------+------+

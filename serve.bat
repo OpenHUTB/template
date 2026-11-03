@@ -21,10 +21,10 @@ if %errorlevel% neq 0 (
     echo mkdocs virtual environment does not exist. Creating it now...
     conda create -n mkdocs python=3.11 -y
     echo mkdocs virtual environment has been created.
+    conda activate mkdocs
+    pip install -r requirements.txt
+    pip install git+https://github.com/OpenHUTB/mkdocs.git
 )
-pip install -r requirements.txt
-pip install git+https://github.com/OpenHUTB/mkdocs.git
-
 
 for /f "tokens=*" %%i in ('where conda') do set CONDA_PATH=%%i
 echo conda is installed at: %CONDA_PATH%
