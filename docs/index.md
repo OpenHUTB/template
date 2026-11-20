@@ -11,6 +11,7 @@ title: 主页
 
 
 - [简介](#introduction)
+    - [部署方法](#deploy)
     - [mkdocs简介](#mkdocs)
     - [播放视频](#videos)
 - [表格](#table)
@@ -23,6 +24,8 @@ title: 主页
 
 
 ## 1. 简介 <span id="introduction"></span>
+
+### 1.1 [__部署方法__](./deploy.md) <span id="deploy"></span>
 
 
 ### 1.1 [__mkdocs简介__](./mkdocs.md) <span id="mkdocs"></span>
