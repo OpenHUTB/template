@@ -55,6 +55,8 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#3-列表">3. 列表 </a>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#参考文献">参考文献</a>
 </li>
 </ul>
@@ -99,6 +101,7 @@
 <li><a href="#%E8%B7%A8%E8%B6%8A%E5%A4%9A%E8%A1%8C%E5%92%8C%E5%A4%9A%E5%88%97">跨越多行和多列</a></li>
 </ul>
 </li>
+<li><a href="#list">列表</a></li>
 </ul>
 <hr/>
 <h2 id="1-简介">1. 简介 <span id="introduction"></span></h2>
@@ -301,6 +304,27 @@ too</p>
 </tr>
 </tbody>
 </table>
+<h2 id="3-列表">3. 列表 <span id="list"></span></h2>
+<p>与 GitHub 的预览效果一致，列表前不需要空行，可以直接写在段落后面（由 <code>hooks.py</code> 中的 <code>on_page_markdown</code> 在构建时自动补上空行）：</p>
+<div class="highlight"><pre><span></span><code>支持的图片格式：
+- PNG
+- JPG
+
+安装步骤：
+1. 安装 Python 3.8+
+2. 安装依赖
+</code></pre></div>
+<p>渲染为：</p>
+<p>支持的图片格式：</p>
+<ul>
+<li>PNG</li>
+<li>JPG</li>
+</ul>
+<p>安装步骤：</p>
+<ol>
+<li>安装 Python 3.8+</li>
+<li>安装依赖</li>
+</ol>
 <hr/>
 <p>如果对文档中的任何问题可以在<a href="https://github.com/OpenHUTB/templte/issues">问题</a>或<a href="https://mp.weixin.qq.com/s/Fxfh98b-UEpJhbINDjroJQ">公众号</a>页面讨论或者提交 <a href="https://github.com/OpenHUTB/.github/blob/master/CONTRIBUTING.md">拉取请求</a> 直接修改文档。</p>
 <h2 id="参考文献">参考文献</h2>
@@ -356,5 +380,5 @@ too</p>
 </html>
 <!--
 MkDocs version : 1.5.9
-Build Date UTC : 2026-11-20 10:41:09.786767+00:00
+Build Date UTC : 2026-11-22 13:43:40.434397+00:00
 -->
